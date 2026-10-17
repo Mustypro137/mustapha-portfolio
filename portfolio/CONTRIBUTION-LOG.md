@@ -1,0 +1,9 @@
+# Contribution Log
+
+This log tracks what I did, what AI did, and what I learned in each session.
+
+| Date | What I did | What AI did | What I learned |
+|------|------------|-------------|----------------|
+| 2026-10-13 | Chose the site's goal (get small-business clients) and the 5 sections. Wrote the Phase 1 brief. | Created the folder structure, drafted the text in `content.md`, and sketched the phone and desktop layouts in `wireframe.md`. | Plan the words and layout before writing code, so the HTML is easier. Design for phones first: one column on phone, side by side on desktop. Mark missing info as TODO so I know what to collect. Keep my offer to one clear sentence. |
+| 2026-10-13 | Wrote the Phase 2 brief: semantic tags, section ids, accessible menu button, alt text, contact links. | Wrote `index.html` from `content.md` and `wireframe.md`, added placeholder images (`images/project-1.svg`, `project-2.svg`), and explained the file section by section. | [TODO: in my own words] e.g. Why there is only one h1, what `aria-expanded` and `aria-controls` do, and how `#id` links jump to sections. |
+| 2026-10-13 | Wrote the Phase 3 brief: one accent color, CSS variables, mobile first (360 / 768 / 1280), grids, WCAG AA contrast, visible focus, mobile menu class. | Wrote `css/style.css` without changing the HTML, and explained the 5 most important rules. | [TODO: in my own words] e.g. How `min-width` media queries build up from phone to desktop, and why focus outlines must stay. |

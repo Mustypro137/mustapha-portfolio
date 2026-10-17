@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Illustrated preview of this portfolio site on desktop and phone -->
+  <rect width="800" height="500" fill="#f6f7f9"/>
+
+  <!-- Desktop browser window -->
+  <rect x="32" y="40" width="560" height="400" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <rect x="32" y="40" width="560" height="34" rx="10" fill="#e5e7eb"/>
+  <rect x="32" y="60" width="560" height="14" fill="#e5e7eb"/>
+  <circle cx="54" cy="57" r="6" fill="#f87171"/>
+  <circle cx="74" cy="57" r="6" fill="#fbbf24"/>
+  <circle cx="94" cy="57" r="6" fill="#4ade80"/>
+
+  <!-- Site header -->
+  <text x="60" y="110" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Mustapha</text>
+  <g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1f2937">
+    <text x="330" y="110">About</text>
+    <text x="390" y="110">Services</text>
+    <text x="462" y="110">Projects</text>
+    <text x="532" y="110">Contact</text>
+  </g>
+  <line x1="32" y1="128" x2="592" y2="128" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Hero -->
+  <text x="312" y="210" font-family="system-ui, sans-serif" font-size="34" font-weight="700" fill="#1f2937" text-anchor="middle">Hi, I'm Mustapha.</text>
+  <text x="312" y="248" font-family="system-ui, sans-serif" font-size="15" fill="#4b5563" text-anchor="middle">I build simple, fast websites that help</text>
+  <text x="312" y="270" font-family="system-ui, sans-serif" font-size="15" fill="#4b5563" text-anchor="middle">small businesses get more customers.</text>
+  <rect x="190" y="298" width="116" height="40" rx="8" fill="#1d4ed8"/>
+  <text x="248" y="323" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">See my work</text>
+  <rect x="318" y="298" width="116" height="40" rx="8" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="376" y="323" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1d4ed8" text-anchor="middle">Contact me</text>
+
+  <!-- Service cards peeking in -->
+  <rect x="60" y="370" width="160" height="70" rx="6" fill="#f6f7f9"/>
+  <rect x="232" y="370" width="160" height="70" rx="6" fill="#f6f7f9"/>
+  <rect x="404" y="370" width="160" height="70" rx="6" fill="#f6f7f9"/>
+
+  <!-- Phone -->
+  <rect x="620" y="70" width="152" height="300" rx="20" fill="#1f2937"/>
+  <rect x="628" y="84" width="136" height="272" rx="12" fill="#ffffff"/>
+  <text x="640" y="112" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1f2937">Mustapha</text>
+  <rect x="712" y="98" width="42" height="20" rx="4" fill="none" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="733" y="112" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#1f2937" text-anchor="middle">Menu</text>
+  <line x1="628" y1="126" x2="764" y2="126" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="640" y="160" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Hi, I'm</text>
+  <text x="640" y="180" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Mustapha.</text>
+  <rect x="640" y="194" width="110" height="5" rx="2" fill="#cbd5e1"/>
+  <rect x="640" y="205" width="96" height="5" rx="2" fill="#cbd5e1"/>
+  <rect x="640" y="216" width="104" height="5" rx="2" fill="#cbd5e1"/>
+  <rect x="640" y="236" width="112" height="26" rx="5" fill="#1d4ed8"/>
+  <text x="696" y="253" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">See my work</text>
+  <rect x="640" y="270" width="112" height="26" rx="5" fill="none" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="696" y="287" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#1d4ed8" text-anchor="middle">Contact me</text>
+
+  <text x="696" y="404" font-family="system-ui, sans-serif" font-size="13" fill="#4b5563" text-anchor="middle">Works on every screen</text>
+</svg>

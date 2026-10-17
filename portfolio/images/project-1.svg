@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Illustrated preview of the Code Typing Practice app: live multiplayer race -->
+  <rect width="800" height="500" fill="#0f172a"/>
+
+  <!-- Top bar -->
+  <rect width="800" height="64" fill="#1e293b"/>
+  <text x="32" y="40" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">CodeType</text>
+  <circle cx="644" cy="33" r="6" fill="#4ade80"/>
+  <text x="658" y="38" font-family="system-ui, sans-serif" font-size="15" fill="#cbd5e1">4 players racing</text>
+
+  <!-- Live race: each player's progress -->
+  <text x="32" y="100" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#94a3b8">LIVE RACE</text>
+  <g font-family="system-ui, sans-serif" font-size="14">
+    <text x="32" y="132" fill="#ffffff" font-weight="700">you</text>
+    <rect x="110" y="120" width="390" height="14" rx="7" fill="#1e293b"/>
+    <rect x="110" y="120" width="250" height="14" rx="7" fill="#1d4ed8"/>
+    <text x="518" y="132" fill="#ffffff" font-weight="700">64%</text>
+
+    <text x="32" y="164" fill="#cbd5e1">ada_dev</text>
+    <rect x="110" y="152" width="390" height="14" rx="7" fill="#1e293b"/>
+    <rect x="110" y="152" width="300" height="14" rx="7" fill="#c084fc"/>
+    <text x="518" y="164" fill="#cbd5e1">77%</text>
+
+    <text x="32" y="196" fill="#cbd5e1">tunde</text>
+    <rect x="110" y="184" width="390" height="14" rx="7" fill="#1e293b"/>
+    <rect x="110" y="184" width="210" height="14" rx="7" fill="#f59e0b"/>
+    <text x="518" y="196" fill="#cbd5e1">54%</text>
+
+    <text x="32" y="228" fill="#cbd5e1">chioma</text>
+    <rect x="110" y="216" width="390" height="14" rx="7" fill="#1e293b"/>
+    <rect x="110" y="216" width="160" height="14" rx="7" fill="#4ade80"/>
+    <text x="518" y="228" fill="#cbd5e1">41%</text>
+  </g>
+
+  <!-- Text being typed: bright = typed, red = mistake, dim = still to type -->
+  <rect x="24" y="252" width="530" height="220" rx="10" fill="#111c33" stroke="#1e293b" stroke-width="2"/>
+  <g font-family="ui-monospace, Consolas, monospace" font-size="19">
+    <text x="48" y="300"><tspan fill="#f8fafc">python code loop function </tspan></text>
+    <text x="48" y="338"><tspan fill="#f8fafc">variable data keyboard fa</tspan><tspan fill="#f87171" text-decoration="underline">x</tspan><tspan fill="#475569">t</tspan></text>
+    <text x="48" y="376" fill="#475569">developer typing code loop</text>
+    <text x="48" y="414" fill="#475569">python data function fast</text>
+  </g>
+  <!-- Cursor -->
+  <rect x="345" y="320" width="2" height="24" fill="#fbbf24"/>
+  <text x="48" y="452" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">Your result appears when you finish: WPM + accuracy</text>
+
+  <!-- Leaderboard -->
+  <rect x="576" y="88" width="200" height="384" rx="10" fill="#1e293b"/>
+  <text x="596" y="124" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#f8fafc">Top scores</text>
+  <line x1="596" y1="140" x2="756" y2="140" stroke="#334155" stroke-width="1"/>
+  <text x="756" y="124" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="end">WPM</text>
+  <g font-family="system-ui, sans-serif" font-size="15">
+    <text x="596" y="176" fill="#fbbf24">1</text><text x="618" y="176" fill="#f8fafc">ada_dev</text><text x="756" y="176" fill="#f8fafc" text-anchor="end">94</text>
+    <text x="596" y="216" fill="#cbd5e1">2</text><text x="618" y="216" fill="#f8fafc">emeka</text><text x="756" y="216" fill="#f8fafc" text-anchor="end">88</text>
+    <text x="596" y="256" fill="#cbd5e1">3</text><text x="618" y="256" fill="#f8fafc">tunde</text><text x="756" y="256" fill="#f8fafc" text-anchor="end">81</text>
+    <text x="596" y="296" fill="#cbd5e1">4</text><text x="618" y="296" fill="#f8fafc">you</text><text x="756" y="296" fill="#f8fafc" text-anchor="end">72</text>
+    <text x="596" y="336" fill="#cbd5e1">5</text><text x="618" y="336" fill="#f8fafc">chioma</text><text x="756" y="336" fill="#f8fafc" text-anchor="end">69</text>
+  </g>
+  <text x="676" y="440" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">Saved to database</text>
+</svg>
