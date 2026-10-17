@@ -10,7 +10,7 @@ A one-page portfolio website for my front-end work for small businesses.
 - [ ] **Phase 4:** small JavaScript (mobile menu, project filter) and publish
 
 Placeholders still to fill in are marked with `TODO` comments in `index.html`
-(workspace photo, project screenshots, live link for Code Typing Practice).
+(workspace photo, project screenshots).
 
 ## Sections
 
