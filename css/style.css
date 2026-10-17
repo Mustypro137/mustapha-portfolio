@@ -492,21 +492,6 @@ main > section {
   color: var(--color-text-muted);
 }
 
-.statement {
-  margin: var(--space-md) 0 0;
-  padding: var(--space-sm) var(--space-md);
-  background: var(--color-accent-tint);
-  border-left: 3px solid var(--color-accent);
-  border-radius: 0 var(--radius) var(--radius) 0;
-}
-
-.about-text .statement p {
-  margin: 0;
-  color: var(--color-text);
-  font-family: var(--font-heading);
-  font-weight: 500;
-}
-
 .chips {
   display: flex;
   flex-wrap: wrap;
@@ -520,6 +505,63 @@ main > section {
   gap: 0.6rem;
   font-size: var(--text-small);
   font-weight: 500;
+}
+
+/* ---------- 10b. My Story ---------- */
+#story {
+  border-top: 1px solid var(--color-border);
+}
+
+.story-text {
+  max-width: 68ch;
+}
+
+.story-text p {
+  color: var(--color-text-muted);
+}
+
+.statement {
+  margin: var(--space-md) 0 0;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-accent-tint);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.statement p {
+  margin: 0;
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+
+/* ---------- 10c. Skills ---------- */
+#skills {
+  border-top: 1px solid var(--color-border);
+}
+
+.skill-level {
+  display: inline-block;
+  margin-bottom: var(--space-sm);
+  padding: 0.15rem 0.7rem;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--color-accent-light);
+  background: var(--color-accent-tint);
+  border-radius: var(--radius-pill);
+}
+
+#skills .card p {
+  margin: 0;
+}
+
+.learning-next {
+  margin: var(--space-md) 0 0;
+  color: var(--color-text-muted);
+}
+
+.learning-next strong {
+  color: var(--color-text);
 }
 
 /* ---------- 11. Services ---------- */
@@ -605,6 +647,37 @@ main > section {
 .arrow-link:hover {
   background: var(--color-accent);
   border-color: var(--color-accent);
+}
+
+/* ---------- 13. How I Work ---------- */
+#how-i-work {
+  border-top: 1px solid var(--color-border);
+}
+
+.work-list {
+  display: grid;
+  margin-top: var(--space-md);
+  padding-block: var(--space-xs);
+}
+
+.work-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  padding-block: var(--space-sm);
+}
+
+.work-list li + li {
+  border-top: 1px solid var(--color-border);
+}
+
+.work-list p {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.work-list strong {
+  color: var(--color-text);
 }
 
 /* ---------- 14. Contact ---------- */
@@ -764,6 +837,12 @@ main > section {
 
   #main-nav ul a {
     position: relative;
+    white-space: nowrap;
+  }
+
+  /* Not enough room for the button next to 6 links until wider screens */
+  .header-cta {
+    display: none;
   }
 
   #main-nav ul a.is-active::after {
@@ -800,7 +879,8 @@ main > section {
     min-height: 340px;
   }
 
-  #services .cards {
+  #services .cards,
+  #skills .cards {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -823,6 +903,10 @@ main > section {
     --text-h2: 2.5rem;
     --text-h1: 3.5rem;
     --space-xl: 6rem;
+  }
+
+  .header-cta {
+    display: flex;
   }
 
   #hero {
