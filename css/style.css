@@ -17,7 +17,6 @@
   --color-accent-dark: #7c3aed;    /* hover state */
   --color-accent-tint: rgba(139, 92, 246, 0.16);
   --color-on-accent: #ffffff;
-  --color-star: #facc15;
   --gradient-accent: linear-gradient(135deg, #a855f7, #6d28d9);
 
   /* Fonts */
@@ -409,6 +408,12 @@ main > section {
   border-radius: var(--radius-lg);
 }
 
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .photo-frame .monogram {
   font-size: clamp(6rem, 22vw, 10rem);
 }
@@ -627,51 +632,6 @@ main > section {
   border-color: var(--color-accent);
 }
 
-/* ---------- 13. Testimonials ---------- */
-#testimonials {
-  border-top: 1px solid var(--color-border);
-}
-
-.testimonial {
-  display: flex;
-  flex-direction: column;
-}
-
-.avatar {
-  display: grid;
-  place-items: center;
-  width: 3rem;
-  height: 3rem;
-  margin-bottom: var(--space-sm);
-  font-weight: 700;
-  font-size: var(--text-small);
-  background: var(--gradient-accent);
-  border: 2px solid var(--color-border);
-  border-radius: 50%;
-}
-
-.testimonial blockquote {
-  flex: 1;
-  margin: 0 0 var(--space-sm);
-  font-size: var(--text-small);
-  color: var(--color-text-muted);
-}
-
-.person strong {
-  display: block;
-  color: var(--color-text);
-}
-
-.person span {
-  font-size: var(--text-xs);
-}
-
-.stars {
-  margin: 0;
-  letter-spacing: 0.15em;
-  color: var(--color-star) !important;
-}
-
 /* ---------- 14. Contact ---------- */
 #contact {
   position: relative;
@@ -876,8 +836,7 @@ main > section {
     min-height: 340px;
   }
 
-  #services .cards,
-  #testimonials .cards {
+  #services .cards {
     grid-template-columns: repeat(3, 1fr);
   }
 
