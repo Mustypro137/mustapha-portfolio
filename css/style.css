@@ -408,8 +408,11 @@ main > section {
   border-radius: var(--radius-lg);
 }
 
-.photo-frame .monogram {
-  font-size: clamp(6rem, 22vw, 10rem);
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;   /* keep the head in view, crop the shirt */
 }
 
 .shape {
