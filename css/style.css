@@ -460,40 +460,6 @@ main > section {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
 }
 
-/* ---------- 9. Stats ---------- */
-#stats {
-  padding-block: var(--space-md);
-}
-
-.stats {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-sm);
-}
-
-.stat {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
-  padding: var(--space-sm);
-}
-
-.stat .icon-box {
-  margin: 0;
-}
-
-.stat strong {
-  display: block;
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  line-height: 1.2;
-}
-
-.stat span:not(.icon-box) {
-  font-size: var(--text-xs);
-  color: var(--color-text-muted);
-}
-
 /* ---------- 10. About ---------- */
 #about {
   display: grid;
@@ -819,17 +785,6 @@ main > section {
 
   #hero {
     padding-block: var(--space-xl) var(--space-lg);
-  }
-
-  .stats {
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--space-md);
-  }
-
-  .stat {
-    flex-direction: row;
-    align-items: center;
-    padding: var(--space-md);
   }
 
   .about-visual {
