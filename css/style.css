@@ -492,6 +492,21 @@ main > section {
   color: var(--color-text-muted);
 }
 
+.statement {
+  margin: var(--space-md) 0 0;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-accent-tint);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.about-text .statement p {
+  margin: 0;
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+
 .chips {
   display: flex;
   flex-wrap: wrap;
