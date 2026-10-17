@@ -10,7 +10,18 @@ A one-page portfolio website for my front-end work for small businesses.
 - [ ] **Phase 4:** small JavaScript (mobile menu, project filter) and publish
 
 Placeholders still to fill in are marked with `TODO` comments in `index.html`
-(photo, stats, testimonials, email/WhatsApp, social links).
+(workspace photo, project screenshots, live link for Code Typing Practice).
+
+## Sections
+
+1. **Home** — intro and call to action
+2. **About** — who I am as a self-taught front-end developer
+3. **My Story** — growing up deaf, and why writing shapes how I work
+4. **Skills** — what I work with and how comfortable I am with each
+5. **Services** — one-page websites, mobile-friendly design, fixes
+6. **Projects** — Code Typing Practice and this portfolio, with a filter
+7. **How I Work** — my approach, including how I use AI
+8. **Contact** — email, GitHub, LinkedIn (Abidjan, Ivory Coast)
 
 ## Files
 
