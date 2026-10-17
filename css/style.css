@@ -401,10 +401,12 @@ main > section {
   display: grid;
   place-items: center;
   overflow: hidden;
+  /* Dark panel: soft glow behind the head on a faint dot grid */
   background:
-    radial-gradient(circle at 70% 25%, rgba(236, 72, 153, 0.55), transparent 55%),
-    radial-gradient(circle at 25% 80%, rgba(59, 130, 246, 0.5), transparent 55%),
-    var(--gradient-accent);
+    radial-gradient(circle at 55% 40%, rgba(139, 92, 246, 0.35), transparent 60%),
+    radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px) 0 0 / 18px 18px,
+    var(--color-bg-soft);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
 }
 
@@ -413,6 +415,7 @@ main > section {
   height: 100%;
   object-fit: cover;
   object-position: center top;   /* keep the head in view, crop the shirt */
+  filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.5));   /* rim light so the dark shirt stands out */
 }
 
 .shape {
