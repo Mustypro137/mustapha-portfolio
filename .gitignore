@@ -10,3 +10,6 @@ desktop.ini
 # Dependencies / env
 node_modules/
 .env
+
+# Personal photo (kept locally, not published)
+images/me.jpg

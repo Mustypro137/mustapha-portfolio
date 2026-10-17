@@ -408,12 +408,6 @@ main > section {
   border-radius: var(--radius-lg);
 }
 
-.photo-frame img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .photo-frame .monogram {
   font-size: clamp(6rem, 22vw, 10rem);
 }
