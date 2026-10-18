@@ -482,16 +482,13 @@ main > section {
   border-radius: var(--radius-lg);
 }
 
-.about-visual .monogram {
-  font-size: 7rem;
-  opacity: 0.25;
-}
-
-.about-visual .script-text {
+.about-visual img {
   position: absolute;
-  right: 8%;
-  top: 10%;
-  margin: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 30% center;   /* keep face, hands and screens in view */
 }
 
 .about-text p {
