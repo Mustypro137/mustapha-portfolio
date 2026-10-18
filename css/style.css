@@ -371,7 +371,7 @@ main > section {
   display: grid;
   gap: var(--space-lg);
   align-items: center;
-  padding-block: var(--space-lg) var(--space-md);
+  padding-block: var(--space-lg);
 }
 
 #hero p {
@@ -452,6 +452,7 @@ main > section {
     #120f24;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
+  order: 1;   /* phones: show the text before the photo */
 }
 
 .about-visual img {
@@ -852,6 +853,7 @@ main > section {
 
   .about-visual {
     min-height: 340px;
+    order: 0;   /* photo back in the left column */
   }
 
   #services .cards,
