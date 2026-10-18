@@ -11,5 +11,3 @@ desktop.ini
 node_modules/
 .env
 
-# Personal photo (kept locally, not published)
-images/me.jpg
