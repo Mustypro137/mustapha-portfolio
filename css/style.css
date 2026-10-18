@@ -435,9 +435,23 @@ main > section {
 /* ---------- 10. About ---------- */
 #about {
   display: grid;
-  gap: var(--space-lg);
   align-items: center;
   border-top: 1px solid var(--color-border);
+}
+
+/* Phones: unwrap the text box so the photo can sit between
+   the heading and the paragraphs */
+.about-text {
+  display: contents;
+}
+
+.about-text .eyebrow {
+  justify-self: start;   /* keep the pill its own width */
+}
+
+.about-text > p,
+.about-text > .chips {
+  order: 2;
 }
 
 .about-visual {
@@ -452,7 +466,8 @@ main > section {
     #120f24;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  order: 1;   /* phones: show the text before the photo */
+  order: 1;   /* phones: after the heading, before the paragraphs */
+  margin: var(--space-xs) 0 var(--space-md);
 }
 
 .about-visual img {
@@ -851,9 +866,19 @@ main > section {
     padding-block: var(--space-xl) var(--space-lg);
   }
 
+  /* Photo left, text box right */
+  #about {
+    gap: var(--space-lg);
+  }
+
+  .about-text {
+    display: block;
+  }
+
   .about-visual {
     min-height: 340px;
-    order: 0;   /* photo back in the left column */
+    order: 0;
+    margin: 0;
   }
 
   #services .cards,
